@@ -1,0 +1,111 @@
+nav {
+    background: transparent !important;
+    border: transparent !important;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+body {
+    height: 100%;
+    background-image: url("../images/bg-dark.jpg");
+    background-size: cover;
+    background-repeat:   no-repeat;
+
+    font-color:white;
+    font-family: "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    #txtEmail {
+        width: 75%;
+    }
+    #btnNotify {
+        width: 20%;
+    }
+}
+#btnNotify {
+    width: 30%;
+
+    color: white;
+    background: none;
+
+    border: 2px solid white;
+    border-radius: 37px;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+#txtEmail {
+    width: 65%;
+    margin-right: 5%;
+
+    padding: 7px;
+    font-size: 1em;
+
+    outline: none;
+    color: #fff;
+
+    font-weight: 300;
+    background: none;
+    box-shadow: none;
+
+    border: 1px none #fff;
+    border-bottom: 2px solid #fff;
+    transition: border-color 0.5s;
+
+    float: left;
+}
+
+#txtEmail::placeholder {
+    color: #FFF;
+    font-size: 1em;
+}
+
+h2 {
+    font-weight: bolder;
+}
+h4 {
+    font-size: 1.2rem;
+    color: white;
+}
+h3 {
+    font-size: 2.3rem;
+    color:white;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+
+.navbar-brand.title-class {
+    color: #fafbfc;
+}
+
+.heading {
+    size:0px;
+}
+#heading-2 {
+    font-color:white;
+}
+#subheading {
+    font-size: 1.5rem;
+    font-color: white;
+}
+
+#heading-jumbo {
+    padding: 0;
+    color: #f0fff0;
+    background-color: transparent;
+    border: none;
+}
+
+.share-icon {
+    width: 31px;
+    height: 31px;
+}
