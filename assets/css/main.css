@@ -109,3 +109,12 @@ h3 {
     width: 31px;
     height: 31px;
 }
+
+.email123 {
+        font-weight: bold;
+        padding-top: 1.6em;
+        position: absolute;
+        right: 0;
+        color: white;
+        font-size: 1.1em;
+}
