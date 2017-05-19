@@ -30,6 +30,7 @@ body {
     }
 }
 #btnNotify {
+
     width: 30%;
 
     color: white;
@@ -119,4 +120,16 @@ h3 {
 
 #last-row {
     padding-bottom: 1em;
+}
+
+.submit {
+    font-weight: bolder;
+}
+
+#row-2 {
+    padding-bottom: 1rem;
+}
+
+#form-2 {
+    padding-bottom: 2rem;
 }
