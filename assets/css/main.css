@@ -1,3 +1,8 @@
+html, body {
+    min-height: 100%;
+    width: 100%;
+}
+
 nav {
     background: transparent !important;
     border: transparent !important;
@@ -20,14 +25,6 @@ body {
     font-family: "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
 }
 
-@media screen and (min-width: 768px) {
-    #txtEmail {
-        width: 75%;
-    }
-    #btnNotify {
-        width: 20%;
-    }
-}
 #btnNotify {
 
     width: 30%;
@@ -45,6 +42,7 @@ body {
 #txtEmail {
     width: 65%;
     margin-right: 5%;
+    margin-bottom: 1em;
 
     padding: 7px;
     font-size: 1em;
@@ -70,6 +68,7 @@ body {
 
 h2 {
     font-weight: bolder;
+    text-transform: uppercase;
 }
 h4 {
     font-size: 1.2rem;
@@ -112,9 +111,9 @@ h3 {
 }
 
 .email123 {
-        font-weight: bold;
-        color: #F0FFFF;
-        font-size: 1.1em;
+    font-weight: bold;
+    color: #F0FFFF;
+    font-size: 1.1em;
 }
 
 #last-row {
@@ -132,3 +131,19 @@ h3 {
 #form-2 {
     padding-bottom: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+    #txtEmail {
+        width: 75%;
+    }
+    #btnNotify {
+        width: 20%;
+    }
+/*    #sign-container, #copyright-container {
+        position: relative;
+    }
+    #sign, #copyright {
+        position: absolute;
+        right: 0;
+    }
+*/}
