@@ -134,6 +134,20 @@ h3 {
 
 #navbar-button {
     background: none;
+    background-image: url("../images/hamburger.svg");
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: 1.2em;
+    padding: 1em;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+#copyright h4 {
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -151,3 +165,7 @@ h3 {
         right: 0;
     }
 */}
+
+#email-form {
+    padding-bottom: 1em;
+}
